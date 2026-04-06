@@ -1,0 +1,8 @@
+.navbar_text:hover{
+    color: #0b63f0 ;
+    text-shadow: 1px 0.5px #c6d0ff;
+    text-decoration:overline;
+    box-shadow: 0 1.5px  #0b63f0;
+    transition: 0.2s ease;
+}
+
