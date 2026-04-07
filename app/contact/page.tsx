@@ -16,7 +16,7 @@ export default function ContactForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     e.preventDefault();
     setLoading(true);
 
